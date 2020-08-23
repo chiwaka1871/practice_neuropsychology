@@ -1,0 +1,121 @@
+@charset "UTF-8";
+/* メモ帳との紐づけは保存先に注意！保存先はHTMLファイルと
+同じフォルダ内に保存する。でないとたとえフォルダに後から
+移動してもメモ帳との紐づけがされない。 */
+body{
+  background: linear-gradient(45deg, #CEF6D8, #F3E2A9,#CEF6F5);
+  /* background-color: #E0F2F7; */
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  margin-left: 100px;
+}
+
+.color{
+  background-color:#FFFFFF;
+}
+
+.introduction{
+  margin: 20px;
+}
+
+nav{
+  margin: 100px;
+  margin-left: 100px;
+  border: 1px solid;
+  padding: 30px;
+
+
+
+
+}
+
+/* .side{
+  width: 400px;
+  height: 1430px;
+  float: left;
+  margin: auto;
+  border: 1px solid;
+ } */
+
+
+
+ul{
+
+
+}
+
+main{
+
+
+}
+
+section{
+  margin: 100px 0px 100px 0px;
+  padding: 1px;
+
+
+}
+
+h2{
+  font-size: 40px
+}
+h1{
+  display: flex;
+  justify-content: center;
+}
+h3 {
+  background-color: white;
+  font-size: 40px;
+  margin: 0px;
+  margin-left:  0px;
+  margin-right: 0px;
+  /* border: 2px solid; */
+  padding: 30px;
+}
+.index{
+  margin-top: 2px;
+  margin-bottom: 50px;
+  margin-left:  0px;
+  margin-right: 0px;
+  padding: 1px;
+  background: linear-gradient(to right,
+     #00f, red);
+
+}
+/* .index::before
+.index::after
+{
+
+} */
+/* .index::before{
+  margin-bottom: 16px;
+
+}
+.index::after{
+  margin-top: 16px;
+} */
+p{
+  margin: 30px;
+}
+footer{
+
+}
+
+
+
+
+
+/* main{
+  background-color: ;
+}
+h1{
+  color: #81BEF7;
+}
+h2{
+background-color: #81BEF7;
+}
+h3{
+  color: #5858FA;
+} */
